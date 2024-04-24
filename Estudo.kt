@@ -24,6 +24,8 @@ fun main(){
     println("Apenas mostrando a variavel custom = $custom")
     println("Somando a variavel custom com + 1 = ${custom + 1}")
 
+
+    
     //----------------------------------------Basic Types----------------------------------------
     custom = custom + 3 // custom == 11
     custom += 7 // custom == 18 | soma
@@ -58,4 +60,18 @@ fun main(){
     val f: Char     = '\n'                    --> Char
     }
     */
+
+
+
+    //----------------------------------------Lists----------------------------------------
+    // Create a read-only list     --> listOf()
+    // Create a mutable list       --> mutableListOf()
+    val readOnlyShapes = listOf("triangle", "square", "circle")
+    println(readOnlyShapes) // [triangle, square, circle]
+
+    val shapes: MutableList<String> = mutableListOf("triangle", "square", "circle") //Mutable list with explicit type declartion
+    println(shapes) // [triangle, square, circle]
+
+    
+    
 }

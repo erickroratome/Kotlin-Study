@@ -1,11 +1,7 @@
 fun main(){
-    //----------------------------------------Variavel----------------------------------------//
-    // variavel read-only --> val
-    // variavel mutable   --> var
-    val cinco = 5
-    val sete = 7
-    var custom = 10
-
-    custom = 8
-    println(custom)
+    //----------------------------------------Strings Templates----------------------------------------
+    // $
+    // {}
+    println("Apenas mostrando a variavel custom = $custom")
+    println("Somando a variavel custom com + 1 = ${custom + 1}")
 }

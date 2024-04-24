@@ -1,5 +1,5 @@
 fun main(){
-    /----------------------------------------Lists----------------------------------------
+    //----------------------------------------Lists----------------------------------------
     // Create a read-only list     --> listOf()
     // Create a mutable list       --> mutableListOf()
     val readOnlyShapes = listOf("triangle", "square", "circle")
